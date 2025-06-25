@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2271000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_it_request_from_catalog_item</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>e654b61ac3522210cfa878cc050131f8</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create IT Request from Catalog Item</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7254f61ac3522210cfa878cc05013135</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 05:27:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cbbaedac3122210cfa878cc05013192</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create IT Request from Catalog Item</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Campus IT Support Portal" source="x_1449359_campus_i">62dd88d2c3122210cfa878cc050131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name>sys_hub_flow_4cbbaedac3122210cfa878cc05013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:35</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7254f61ac3522210cfa878cc05013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:35</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4cbbaedac3122210cfa878cc05013192^sys_idNOT INc0bbaedac3122210cfa878cc05013195"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4cbbaedac3122210cfa878cc05013192</id>
+        <name>Create IT Request from Catalog Item</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 05:27:42</sys_created_on>
+        <sys_id>c0bbaedac3122210cfa878cc05013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 05:27:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c0bbaedac3122210cfa878cc05013195"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4cbbaedac3122210cfa878cc05013192^sys_idNOT IN5793f6d6c3522210cfa878cc050131c0,9b93f6d6c3522210cfa878cc050131c5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create IT Request from Catalog Item">4cbbaedac3122210cfa878cc05013192</model>
+        <model_id>4cbbaedac3122210cfa878cc05013192</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4cbbaedac3122210cfa878cc05013192</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:02:20</sys_created_on>
+        <sys_id>5793f6d6c3522210cfa878cc050131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:02:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5793f6d6c3522210cfa878cc050131c0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create IT Request from Catalog Item">4cbbaedac3122210cfa878cc05013192</model>
+        <model_id>4cbbaedac3122210cfa878cc05013192</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4cbbaedac3122210cfa878cc05013192</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:02:21</sys_created_on>
+        <sys_id>9b93f6d6c3522210cfa878cc050131c5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b93f6d6c3522210cfa878cc050131c5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=4cbbaedac3122210cfa878cc05013192^sys_idNOT INd344761ac3522210cfa878cc050131e7"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create IT Request from Catalog Item">4cbbaedac3122210cfa878cc05013192</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:20</sys_created_on>
+        <sys_id>d344761ac3522210cfa878cc050131e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:33</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/81T32vbMBD+V4yeNkjASdZm8dsYFAJdO5ptL6EYWTo7YrLkSbJbL+R/38k/YqczZbCXvkl3p7vv033f/kgkTUCSiDyUKriR+inYKjIjQjkwispvdQGYZActGGC8PdwK60i0P5L0B5WlL8BUett1ms+DO60gmM99dJvTrK/YgQTmgJMopdICRr7b8e2LsFaorAucZqMBCWU/M6NLxcejPOjUgxYqGCqCdxxSWkr3/iWAr9TQHJCaJdGRKDxjwtY29k1iA0wbHjsjsgwM1nMoQHFQLq48DHy0J+Tx9H9MUm3gdSaXFW8B/+OM5FRx6rSpz0U4C6dEizCckab/rrZb3iLtoJlStdCEF1U1iIULW0haj+RT9NQ8M3YQkhtQCBhHC9/0OtyEbL3crNfLcLUKw/QqSVnK2PrjIrxeXG2wxbSUJ6G4F7oec4Fn539t+I2/qRug/F7JIXBAw7Q8cvpsxW9s/iH0dSkgDdZxPF/jjn8bblHYxlHy35VdTVmjJ+IlN9XrQlvVlCS7Dku/9G7a5zcLsP26+8IJjWIhK79amsjXbcG0LHN1N6WLDv1Il6XFbfU+GgyyO+inh36dN0I1kLqk1IzK8406nJyUDhrPUl5RfOEV7QzOODWqiH+V/gW58GzDyBdYZkThPjEnKjg78g/OPAvFuwUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4cbbaedac3122210cfa878cc05013192^sys_idNOT IN2793f6d6c3522210cfa878cc050131f0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create IT Request from Catalog Item">4cbbaedac3122210cfa878cc05013192</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:02:21</sys_created_on>
+        <sys_id>2793f6d6c3522210cfa878cc050131f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:02:21</sys_updated_on>
+        <ui_id>f2a277a1-c407-4aae-ab4f-020806d8ce66</ui_id>
+        <values>H4sIAAAAAAAA/+1VUWvbMBD+K0HPJshxmiV5K4zCYGuhK31pGiFb50RDtlRJTpuV/vedJDvr2pWFMRiD5U3fnb77vtP5cvNIpCBLMsuBnizyWVXkRTGhdDKf5uWsKPOJKDjAlGSk5Q1gpuelAhYPGdlx1QXwgeXT6aI4WbCKN6ZzTDLpmYW7DpzHPCGdUXx/3ad/uBpdHmLVViphoSXLm9uMGG6R2oMly8cXIb83wBQvQSHFVZAxOk8yjrXww+U3LIUqLzFtRRBEMwIPHloBWK/mykFGGt4K7rXdk6W3HQIWuLho1f6QsZWtR0ISch+c/IrscxryakBrFaTY4cj6XiW42mpZwYXxUrcJicL6oFZd054nE6HLUPNO+aHLiHQO+cAEyUFEr6j+vNX3l0PBM9lGd31Q6Yqrw4l7b2XZeXDhPUBBg0Ss4cbIdsOM1TsZL6OWZrxReBjXSt9jUSc37ZhXQfgYO8THZ4i/j/A1tzK4+IQ0ePkpumd3XaibfPSKWTKNCa6y0vhTpNtBL+4pG2ZXAF28+fB5+f2h47i6Z3Prttr6IDbSo9RVR2kh+uEc8dFHbrw2636SWRiOlCJghw8TgfWr+18652UtKx6gtbFSW+n3KZYPZCBYrW0CH1fDJ7IiyxU5xTEdXWHX7Ypkq6Q2BmaT+WRW1rR4l1N0SqdToGVdzcuqhBNR5zE9TkhMd3vHcAQSSzhIcSTN0zoJe/3t/m/Zr1v2mysNGrTjYZRanR093QPBmQQl3E/GfdhpfQG26wv0ey3/U3stn9H4+zvbLen8x5bbs/+ZN9bc7Tf6K4JApAcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4cbbaedac3122210cfa878cc05013192"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4cbbaedac3122210cfa878cc05013192^sys_idNOT IN5b93f6d6c3522210cfa878cc050131c4,db93f6d6c3522210cfa878cc050131ca"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4cbbaedac3122210cfa878cc05013192</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:02:21</sys_created_on>
+        <sys_id>5b93f6d6c3522210cfa878cc050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Campus IT Support Portal" source="x_1449359_campus_i">62dd88d2c3122210cfa878cc050131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:02:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4cbbaedac3122210cfa878cc05013192</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:02:21</sys_created_on>
+        <sys_id>db93f6d6c3522210cfa878cc050131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Campus IT Support Portal" source="x_1449359_campus_i">62dd88d2c3122210cfa878cc050131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:02:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4cbbaedac3122210cfa878cc05013192"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4cbbaedac3122210cfa878cc05013192"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4cbbaedac3122210cfa878cc05013192"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_it_request_from_catalog_item</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Create IT Request from Catalog Item</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create IT Request from Catalog Item">4cbbaedac3122210cfa878cc05013192</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e654b61ac3522210cfa878cc050131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e654b61ac3522210cfa878cc050131f8^sys_idNOT INea54b61ac3522210cfa878cc050131f9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e654b61ac3522210cfa878cc050131f8</id>
+        <name>Create IT Request from Catalog Item</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_id>ea54b61ac3522210cfa878cc050131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ea54b61ac3522210cfa878cc050131f9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e654b61ac3522210cfa878cc050131f8^sys_idNOT INe654f61ac3522210cfa878cc05013109,ee54b61ac3522210cfa878cc050131fa"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create IT Request from Catalog Item">e654b61ac3522210cfa878cc050131f8</model>
+        <model_id>e654b61ac3522210cfa878cc050131f8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e654b61ac3522210cfa878cc050131f8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_id>e654f61ac3522210cfa878cc05013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e654f61ac3522210cfa878cc05013109"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create IT Request from Catalog Item">e654b61ac3522210cfa878cc050131f8</model>
+        <model_id>e654b61ac3522210cfa878cc050131f8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e654b61ac3522210cfa878cc050131f8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_id>ee54b61ac3522210cfa878cc050131fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ee54b61ac3522210cfa878cc050131fa"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=e654b61ac3522210cfa878cc050131f8^sys_idNOT IN6654f61ac3522210cfa878cc0501312e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create IT Request from Catalog Item">e654b61ac3522210cfa878cc050131f8</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_id>6654f61ac3522210cfa878cc0501312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/81T32vbMBD+V4yeNkjASdZm8dsYFAJdO5ptL6EYWTo7YrLkSbJbL+R/38k/YqczZbCXvkl3p7vv033f/kgkTUCSiDyUKriR+inYKjIjQjkwispvdQGYZActGGC8PdwK60i0P5L0B5WlL8BUett1ms+DO60gmM99dJvTrK/YgQTmgJMopdICRr7b8e2LsFaorAucZqMBCWU/M6NLxcejPOjUgxYqGCqCdxxSWkr3/iWAr9TQHJCaJdGRKDxjwtY29k1iA0wbHjsjsgwM1nMoQHFQLq48DHy0J+Tx9H9MUm3gdSaXFW8B/+OM5FRx6rSpz0U4C6dEizCckab/rrZb3iLtoJlStdCEF1U1iIULW0haj+RT9NQ8M3YQkhtQCBhHC9/0OtyEbL3crNfLcLUKw/QqSVnK2PrjIrxeXG2wxbSUJ6G4F7oec4Fn539t+I2/qRug/F7JIXBAw7Q8cvpsxW9s/iH0dSkgDdZxPF/jjn8bblHYxlHy35VdTVmjJ+IlN9XrQlvVlCS7Dku/9G7a5zcLsP26+8IJjWIhK79amsjXbcG0LHN1N6WLDv1Il6XFbfU+GgyyO+inh36dN0I1kLqk1IzK8406nJyUDhrPUl5RfOEV7QzOODWqiH+V/gW58GzDyBdYZkThPjEnKjg78g/OPAvFuwUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e654b61ac3522210cfa878cc050131f8^sys_idNOT INae54f61ac3522210cfa878cc0501312d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create IT Request from Catalog Item">e654b61ac3522210cfa878cc050131f8</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_id>ae54f61ac3522210cfa878cc0501312d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+        <ui_id>f2a277a1-c407-4aae-ab4f-020806d8ce66</ui_id>
+        <values>H4sIAAAAAAAA/+1VTU/jMBD9K5XPUeU0pdv2hkBIK7EgAeJCqeXEE+qVEwfbKXQr/vuOY6dUfAiQ9oK0vXnmzfjN88v0ZkukIHMySYEezNJJkaVZNqJ0NB2n+STL05HIOMCYJKTmFSDS8VwB6w4JWXPV+uAjS8fjWXYwYwWvmtYyyaRjBu5bsA5xQtpG8c11hP+8GlzscsVKKmGgJvOb24Q03GBrB4bMty9SnyWqeA4KoVee6TvE3aZ5M3a6Xzs4CwlthOdDEwKPDmoBSKTkykJCKl4L7rTZkLkzLQYMcHFeq80OsZK1w4bEYx+t/IPXTqnHlYCTFRByuyOLUoVwecwdv8TOhWtNhBYrLQuwQRMBJW+VO9qPBcB546SuQ0k3ZqzWqq3qsyAJ2TXoXwYjrUUS0Pg5PfM4Rnm50g8XPcsTWXeSxKTSBVe7E3fOyLx1ns+WgIIKG7GKN42s71hj9Fp2xcilGt4pPAxLpR/wUivv6iEvPPEhysqHJxg/7sLX3Eg/xS9sg8VPCbEbe6S4tc+zoIjsvvVMwmRxBhZk8CWFkY07xAvWEOk+Jf0XIIDO3jVWmj8bqTO93XO/XWnjPP2uPZJftJRmIlp8wAenvHG6WcbvgXmjBYiANT5VF1i+qv/dWidLWXAfWjZGaiPdJuTSvhkIVmoTgttF/6EtyHxBDtHKgyt8B7MgySKw7RKT0XQ0yUua/UgpTkrHY6B5WUzzIocDUaYdvPNMB0ehGZoidPEHKT7Z5mkZiL3eAP8l+1iyLy7Gj/3bL8YTCUrYNwzdb0WoUBEHLBj8xWaMycF1TMbtmP6r7ZhOaPf7RjsyDPftV+Tev+E7y/L2Lw6jVDMwCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e654b61ac3522210cfa878cc050131f8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e654b61ac3522210cfa878cc050131f8^sys_idNOT IN6e54f61ac3522210cfa878cc05013106,aa54f61ac3522210cfa878cc05013126"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e654b61ac3522210cfa878cc050131f8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_id>6e54f61ac3522210cfa878cc05013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Campus IT Support Portal" source="x_1449359_campus_i">62dd88d2c3122210cfa878cc050131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e654b61ac3522210cfa878cc050131f8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:34</sys_created_on>
+        <sys_id>aa54f61ac3522210cfa878cc05013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Campus IT Support Portal" source="x_1449359_campus_i">62dd88d2c3122210cfa878cc050131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e654b61ac3522210cfa878cc050131f8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e654b61ac3522210cfa878cc050131f8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e654b61ac3522210cfa878cc050131f8"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>4cbbaedac3122210cfa878cc05013192</sys_id>
+        <latest_snapshot>e654b61ac3522210cfa878cc050131f8</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4cbbaedac3122210cfa878cc05013192^sys_idNOT IN7a54f61ac3522210cfa878cc05013135"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>4cbbaedac3122210cfa878cc05013192</plan_id>
+        <snapshot>e654b61ac3522210cfa878cc050131f8</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:05:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a54f61ac3522210cfa878cc05013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:05:35</sys_updated_on>
+        <trigger display_value="">7254f61ac3522210cfa878cc05013135</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4cbbaedac3122210cfa878cc05013192"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1449359_campus_i.faculty" name="x_1449359_campus_i.faculty">f71eccd2c3122210cfa878cc05013186</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 17:59:17</sys_created_on>
+        <sys_id>7f1eccd2c3122210cfa878cc05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f71eccd2c3122210cfa878cc05013186</sys_name>
+        <sys_package display_value="Campus IT Support Portal" source="x_1449359_campus_i">62dd88d2c3122210cfa878cc050131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus IT Support Portal">62dd88d2c3122210cfa878cc050131b1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_7f1eccd2c3122210cfa878cc05013187</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 17:59:17</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
